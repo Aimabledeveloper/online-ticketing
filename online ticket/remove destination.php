@@ -1,0 +1,62 @@
+
+<html>
+    <head>
+        <title>FFORM</title>
+        <style>
+            .registration-form {
+      max-width: 400px;
+      margin: 0 auto;
+    }
+    
+    .form-group {
+      margin-bottom: 20px;
+    }
+    
+    label {
+      display: block;
+      font-weight: bold;
+    }
+    
+    input[type="text"],
+    input[type="number"],
+    input[type="email"],
+    select {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    
+    button[type="submit"] {
+      display: block;
+      width: 100%;
+      padding: 10px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    
+    button[type="submit"]:hover {
+      background-color: #45a049;
+    }
+        </style>
+    </head>
+    <body>
+       
+        <form class="registration-form" action="form.php" method="POST">
+            <div class="form-group">
+                <label for="bus"> destination ID:</label>
+                <input type="number" id="number" name="d ID">
+            </div>
+            <div class="form-group">
+                <label for="Bus">Location:</label>
+                <input type="text" id="Model" name="Dname">
+            </div>
+           
+    
+            <button type="submit">Remove</button>
+        </form>
+    </body>
+    </html>

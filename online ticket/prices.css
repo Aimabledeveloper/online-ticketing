@@ -1,0 +1,147 @@
+
+* .menu{
+    width: 10px;
+    float: left;
+    height: 40px;
+    margin-left: 1px;
+    font-size: 1px;
+ }
+ 
+ ul{
+     float: left;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background-color: wheat;
+     padding-left: px;
+ }
+ 
+ ul li{
+     list-style: none;
+     margin-left: 140px;
+     margin-top: px;
+     font-size: 15px;
+ }
+ 
+ ul li a{
+     text-decoration: none;
+     color:black;
+     font-family: italic;
+     font-weight: bold;
+     transition: 0.4s ease-in-out;
+ }
+ 
+ {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+section {
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    place-items: center;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.column {
+    width: 100%;
+    padding: 0 1em 1em 1em;
+    text-align: center;
+}
+
+.card {
+    width: 100%;
+    height: 100%;
+    padding: 2em 1.5em;
+    background: linear-gradient(#ffffff 50%, rgb(110, 44, 254) 50%);
+    background-size: 100% 200%;
+    background-position: 0 2.5%;
+    border-radius: 5px;
+    box-shadow: 0 0 35px rgba(0, 0, 0, 0.12);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #1f194c;
+    margin: 1em 0;
+}
+
+p {
+    color: #575a7b;
+    font-size: 15px;
+    line-height: 1.6;
+    letter-spacing: 0.03em;
+}
+
+.icon-wrapper {
+    background-color: rgb(0, 17, 128);
+    position: relative;
+    margin: auto;
+    font-size: 30px;
+    height: 2.5em;
+    width: 2.5em;
+    color: #ffffff;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    transition: 0.5s;
+}
+
+.card:hover {
+    background-position: 0 100%;
+}
+
+.card:hover h3 {
+    color: #ffffff;
+}
+
+.card:hover p {
+    color: #f0f0f0;
+}
+
+@media screen and (min-width: 768px) {
+    section {
+        padding: 0 2em;
+    }
+    .column {
+        flex: 0 50%;
+        max-width: 50%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    section {
+        padding: 1em 3em;
+    }
+    .column {
+        flex: 0 0 33.33%;
+        max-width: 33.33%;
+    }
+}
+.rogo{
+    padding-left: 30px;
+    padding-top: 30px;
+    
+}
+.rogo img{
+    height: 150px;
+    padding-left: 30px;
+}
+.locationarea{
+    margin-left: 800px;
+    margin-top: 40px;
+    padding-top: 4px;
+}
+.elementor-icon-box-title{
+    padding-top: 1px;
+}

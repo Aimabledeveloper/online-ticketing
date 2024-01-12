@@ -1,0 +1,69 @@
+/* CSS for cards */
+
+.card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    width: calc(25% - 30px); /* Adjust the width as needed */
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+  }
+  
+  .card:nth-child(4n+4) {
+    margin-right: 0;
+  }
+  
+  .card .icon-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background-color: #f4f4f4;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .card .card-content p {
+    margin: 0;
+    margin-bottom: 10px;
+  }
+  
+  .card .card-content p b {
+    font-weight: bold;
+  }
+  
+  .card .card-footer a {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .card .card-footer a:hover {
+    background-color: #0056b3;
+  }
+  
+  .clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  /* CSS for list */
+
+.box-info {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .box-info li {
+    margin-bottom: 20px;
+  }
